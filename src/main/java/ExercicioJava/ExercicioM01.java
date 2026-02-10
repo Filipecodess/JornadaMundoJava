@@ -1,4 +1,4 @@
-package modolu01_introducao;
+package ExercicioJava;
 
 import java.util.Scanner;
 
