@@ -20,6 +20,7 @@ public class Aula01_While {
 //        }
 //
 //            System.out.println ("Feliz Ano Novo!");
+        // Do While (faça{} enquanto ())
         int i = 5;
         do {
             System.out.println(i);
