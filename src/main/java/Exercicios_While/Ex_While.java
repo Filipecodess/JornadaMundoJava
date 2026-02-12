@@ -47,6 +47,42 @@ public class Ex_While {
 //       }
 //       sc.close();
 
+// Posto de Combustível
 
+      Scanner sc = new Scanner (System.in);
+      int alcool = 0;
+      int gasolina = 0;
+      int diesel = 0;
+
+      System.out.println ("""
+              1. álcool
+              2. Gasolina
+              3. Diesel
+              4. Fim
+              """);
+      System.out.println ("Digite a opção de abastecimento: ");
+      int opcao = sc.nextInt();
+      while (opcao != 4) {
+         switch (opcao) {
+            case 1 -> {
+               System.out.println("Você abasteceu com Álcool");
+               alcool++;
+            }
+            case 2 -> {
+               System.out.println("Você basteceu com Gasolina");
+               gasolina++;
+            }
+            case 3 -> {
+               System.out.println("Você abasteceu com Disel");
+               diesel++;
+            }
+         }
+         opcao = sc.nextInt();
+      }
+      System.out.println("MUITO OBRIGADO");
+      System.out.println("Alcool: " + alcool);
+      System.out.println("Gasolina: " + gasolina);
+      System.out.println("Diesel: " + diesel);
+      sc.close();
    }
 }
