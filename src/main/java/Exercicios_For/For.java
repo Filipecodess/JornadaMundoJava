@@ -1,7 +1,6 @@
-package modulo03_lacos_repeticao;
-
+package Exercicios_For;
 import java.util.Scanner;
-public class Aula02_ForLoop {
+public class For {
     static void main () {
         Scanner sc = new Scanner (System.in);
 //        System.out.println ("Digite um número: ");
