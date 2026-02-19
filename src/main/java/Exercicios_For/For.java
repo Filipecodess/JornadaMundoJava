@@ -40,7 +40,7 @@ public class For {
 //                System.out.printf ("%d X %d = %d\n ", i,j, result );
 //            }
 //        }
-//          PROCESSO DE BATELADA
+//          PROCESSO EM BATELADA
         System.out.print("Digite o número de bateladas: ");
         int cicl = sc.nextInt();
         int i;
