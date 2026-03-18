@@ -53,7 +53,7 @@ public class For {
             }
             System.out.printf ("%dª batelada completa\n", i);
         }
-//        System.out.printf ("Em %d bateladas foram feitos %d produtos", i-1, total);
+//        System.out.printf ("Em %d bateladas foram feitos %d produtos", i(i-1), total);
         // não se deve usar variável de controle (i) para determinar um relatório final.
         System.out.printf ("Em %d bateladas foram feitos %d produtos", cicl, total);
     }
